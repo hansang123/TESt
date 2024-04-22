@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 153, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 전체 화면의 높이 */
+  }
+  
+  /* 캔버스 스타일 */
+  canvas {
+    background-color: rgb(180, 180, 180);
+    width: 600px; /* 캔버스의 가로 */
+    /* 캔버스의 세로 높이를 전체 높이에서 상하 여백 100px를 뺀 값으로 설정 */
+    height: calc(100vh - 100px); /* 상하 여백 50px씩 포함되도록 설정 */
+    display: block; /* 블록 요소로 설정하여 margin 적용 가능하게 함 */
+    margin: 50px 0; /* 위, 아래 여백 각각 50px */
+  }
